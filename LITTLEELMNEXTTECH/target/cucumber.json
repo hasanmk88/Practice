@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can Login",
+        "description": "",
+        "id": "this-is-login-feature;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062708900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"\u003cURL\u003e\" Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "Appli8cationLogin.launch_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 640044200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click LoginLink",
+            "match": {
+              "location": "Appli8cationLogin.click_LoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207363900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter UserNPassword Click LoginButton",
+            "match": {
+              "location": "Appli8cationLogin.enter_UserNPassword_Click_LoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1114296000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can Login Successfully",
+            "match": {
+              "location": "Appli8cationLogin.verify_user_can_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@JahanTest"
+          }
+        ]
+      }
+    ],
+    "name": "This is login feature",
+    "description": "",
+    "id": "this-is-login-feature",
+    "keyword": "Feature",
+    "uri": "ApplicationLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user registration",
+        "description": "",
+        "id": "this-feature-for-user-registration-functionality;verify-user-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 625883401,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"\u003cURL\u003e\" Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "Appli8cationLogin.launch_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620086800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click RegisterLink",
+            "match": {
+              "location": "ApplicationRegister.click_RegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4527786901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select Gender Enter FirstName Enter LastName Enter Email",
+            "match": {
+              "location": "ApplicationRegister.select_Gender_Enter_FirstName_Enter_LastName_Enter_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1663746800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password Enter ConfirmPassword Click Register Button",
+            "match": {
+              "location": "ApplicationRegister.enter_Password_Enter_ConfirmPassword_Click_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169000900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user registration",
+            "match": {
+              "location": "ApplicationRegister.verify_user_registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@JahanTest"
+          }
+        ]
+      }
+    ],
+    "name": "This feature for user registration functionality",
+    "description": "",
+    "id": "this-feature-for-user-registration-functionality",
+    "keyword": "Feature",
+    "uri": "ApplicationRegister.feature"
+  }
+]
